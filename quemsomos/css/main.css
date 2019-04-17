@@ -1,0 +1,128 @@
+body {
+  line-height: 1;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+header, footer, section {
+  width: 100%; }
+
+img {
+  width: 100%; }
+
+.hide-title {
+  display: none; }
+
+header {
+  top: 1.5625vw;
+  z-index: 9999;
+  position: absolute; }
+  header .wrap {
+    display: flex;
+    align-items: center; }
+  header .logo {
+    width: 10.859375vw;
+    height: 9.84375vw;
+    margin: 0 auto 0 0; }
+  header nav {
+    width: 51.71875vw;
+    margin: 0 auto; }
+    header nav ul {
+      text-align: center; }
+      header nav ul li {
+        display: inline;
+        font-size: 1.38984375vw;
+        color: #51485f; }
+        header nav ul li a {
+          text-transform: uppercase;
+          color: #51485f;
+          font-weight: 800;
+          text-decoration: none; }
+      header nav ul li + li {
+        margin-left: 0.3671875vw; }
+  header .chat {
+    width: 14.6875vw;
+    margin: 0 0 0 auto; }
+
+
+i {
+  display: inline-block;
+  text-decoration: inherit; }
+
+i:before {
+  font-family: 'FontAwesome';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit; }
+
+.wrap {
+  max-width: 84.375vw;
+  width: 100%;
+  margin: 0 auto;
+  position: relative; }
+
+  footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #51485f;
+    color: white;
+    text-align: center;
+    height: 130px;
+    border-bottom: solid 14px #D9D268;
+  }
+  footer ul { list-style:none; }
+  footer ul li { display: inline; }
+  footer a {
+    text-decoration: none;
+    color: #fff;
+  }
+  article {
+    width: 100%;
+    background-color:#F5F5F5;
+    margin-top:200px;
+  }
+
+  #breadcumb {
+    box-sizing: border-box;
+    height:48px;
+    background-color:#EEEEEE;
+    width:100%;
+  }
+  #content {
+    margin: 0 auto;
+    width: 100%;
+ }
+ #content a {
+   text-decoration: none;
+   color: #000;
+ }
+ .text-content{
+   max-width: 84.375vw;
+   margin: 0 auto;
+
+
+ }
+  .clear {
+   clear: both;
+  }
