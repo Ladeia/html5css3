@@ -91,11 +91,23 @@ i:before {
     height: 130px;
     border-bottom: solid 14px #D9D268;
   }
-  footer ul { list-style:none; }
+  footer ul {
+    list-style:none;
+    float: right;
+    width: 780px;
+    margin-top:56px;
+  }
   footer ul li { display: inline; }
   footer a {
     text-decoration: none;
     color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  footer img {
+    float:left;
+    width:200px;
+    margin-top:56px;
   }
   article {
     width: 100%;
@@ -120,9 +132,24 @@ i:before {
  .text-content{
    max-width: 84.375vw;
    margin: 0 auto;
-
-
+ }
+ .breadcumb{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 12px;
+   font-style: italic;
+   padding-top: 18px;
  }
   .clear {
    clear: both;
+  }
+  .card {
+    margin-top: 60px;
+  }
+  .paragraph {
+    line-height: 150%;
+    margin-top: -10px;
+  }
+  #video {
+    margin-top: 60px;
+    margin-bottom: 40px;
   }
