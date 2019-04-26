@@ -95,7 +95,7 @@ i:before {
     list-style:none;
     float: right;
     width: 780px;
-    margin-top:56px;
+    margin-top:61px;
   }
   footer ul li { display: inline; }
   footer a {
@@ -106,8 +106,8 @@ i:before {
   }
   footer img {
     float:left;
-    width:200px;
-    margin-top:56px;
+    width:110px;
+    margin-top:14px;
   }
   article {
     width: 100%;
@@ -120,18 +120,26 @@ i:before {
     height:48px;
     background-color:#EEEEEE;
     width:100%;
+    color: #51485f;
+
   }
   #content {
     margin: 0 auto;
     width: 100%;
+    color: #51485f;
+
+ }
+ #content h1 {
+   color: #51485f;
  }
  #content a {
    text-decoration: none;
-   color: #000;
+   color: #51485f;
  }
  .text-content{
    max-width: 84.375vw;
    margin: 0 auto;
+   color: #51485f;
  }
  .breadcumb{
    font-family: 'Open Sans', sans-serif;
@@ -148,8 +156,14 @@ i:before {
   .paragraph {
     line-height: 150%;
     margin-top: -10px;
+    color: #51485f;
+
   }
   #video {
     margin-top: 60px;
     margin-bottom: 40px;
+  }
+  h2{
+    color: #51485f;
+    margin-bottom:10px;
   }
